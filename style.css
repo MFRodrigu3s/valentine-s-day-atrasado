@@ -1,0 +1,68 @@
+html {
+    background-color: rgb(241, 95, 132);
+    color: antiquewhite;
+    /* box-sizing: border-box; */
+    overflow: hidden;
+}
+
+#main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-porta {
+    width: 200px;
+}
+
+#input-div {
+    margin-bottom: 20px;
+}
+
+#input-div label {
+    margin-top: 10px;
+}
+
+#input-div input {
+    height: 20px;
+    width: 250px;
+    border-radius: 5px;
+    border: white 1px solid;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#input-div button {
+    cursor: pointer;
+    height: 30px;
+    width: 120px;
+    margin-top: 35px;
+}
+
+#subtitulo {
+    text-align: center;
+}
+
+#divStyle-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#portaAberta {
+    display: none;
+}
+
+#msgAmor {
+    display: none;
+    text-align: center;
+}
+
+#msgErro {
+    display: none;
+    text-align: center;
+}
