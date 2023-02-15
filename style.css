@@ -2,7 +2,6 @@ html {
     background-color: rgb(241, 95, 132);
     color: antiquewhite;
     /* box-sizing: border-box; */
-    overflow: hidden;
 }
 
 #main-container {
