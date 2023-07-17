@@ -8,7 +8,7 @@ const msgErro = document.getElementById('msgErro')
 
 botao.onclick = function(){
     const value = input.value
-    const nome = value.toUpperCase
+    const nome = value.toUpperCase()
     if(nome != "BRUNA CICILIA PRESTES"){
         portaFechada.style.display = "block"
         portaAberta.style.display = "none"
